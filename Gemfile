@@ -5,8 +5,8 @@ gem 'bootstrap-sass'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-gem 'pg'
+
+#gem 'pg'
 gem 'jquery-rails'
 
 # Gems used only for assets and not required
@@ -31,7 +31,7 @@ group :development, :test do
   gem 'guard-spork', :github => 'guard/guard-spork'
   gem 'capybara', '1.1.2'
   gem 'guard-livereload'
-  
+  gem 'sqlite3'
 end
   
 
