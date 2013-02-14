@@ -19,6 +19,7 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'bcrypt-ruby'
 end
 
 group :development, :test do
@@ -32,6 +33,8 @@ group :development, :test do
   gem 'capybara', '1.1.2'
   gem 'guard-livereload'
   gem 'sqlite3'
+  gem 'annotate'
+  gem 'debugger'
 end
   
 
